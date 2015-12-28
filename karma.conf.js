@@ -3,8 +3,6 @@ module.exports = config => {
 
   config.set({
 
-    basePath: '',
-
     frameworks: ['browserify', 'mocha'],
 
     plugins: [

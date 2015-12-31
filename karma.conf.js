@@ -47,13 +47,12 @@ module.exports = config => {
 
     port: 9876,
 
-    colors: true,
+    autoWatchBatchDelay: 0,
 
     logLevel: config.LOG_ERROR,
 
-    browsers: ['jsdom'],
+    browsers: ['jsdom']
 
-    concurrency: Infinity
   })
 
 }

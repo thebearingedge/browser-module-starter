@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf lib",
     "lint": "eslint src/**/*.js test/**/*.js",
     "test": "karma start --single-run",
     "tdd": "npm -s test -- --auto-watch --no-single-run",
     "cover": "npm -s test -- --reporters='mocha,coverage'",
-    "babel": "rimraf lib && babel src -d lib"
+    "build": "npm run -s clean && babel src -d lib"
   },
   "author": "",
   "license": "",

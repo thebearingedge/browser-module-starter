@@ -1,6 +1,6 @@
 
 import { expect } from 'chai'
-import foo from '../src/foo'
+import foo from '../src'
 
 it('is good to go', async () => {
   expect(foo).to.be.a('function')

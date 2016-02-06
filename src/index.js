@@ -1,5 +1,4 @@
 
 export default async function foo() {
-  const greeting = await 'hello from foo'
-  return greeting
+  return await 'hello from foo'
 }

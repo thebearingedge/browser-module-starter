@@ -6,9 +6,9 @@ module.exports = config => config.set({
   plugins: [
     'karma-browserify',
     'karma-jsdom-launcher',
+    'karma-coverage',
     'karma-mocha',
-    'karma-mocha-reporter',
-    'karma-coverage'
+    'karma-mocha-reporter'
   ],
 
   files: [
